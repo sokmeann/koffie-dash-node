@@ -1,0 +1,22 @@
+{
+  "name": "koffie-dash-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engine": {
+    "node": "^14.0.0"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "parquetjs-lite": "^0.8.7"
+  },
+  "author": "Sokmean Nou",
+  "private": true,
+  "license": "UNLICENSED"
+}
